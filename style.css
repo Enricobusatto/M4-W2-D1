@@ -64,7 +64,7 @@
     font-weight: 500 !important;
     letter-spacing: 40px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-top: 50vh;
+    margin-top: 40vh;
 }
 
 @media (min-width: 1600px) {
@@ -83,5 +83,37 @@
 .nav-link.active {
   color: #02b7ff !important;
 }
+ /* barra di ricerca */
+
+.custom-search-bar {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px 15px;
+}
+
+.custom-search-bar input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-search-bar input::placeholder {
+  color: #999;
+}
+
+.custom-search-bar button {
+  border: none;
+  background-color: transparent;
+  color: #555;
+}
+
+.custom-search-bar button:hover {
+  color: #000;
+}
+
 
 /*   */
